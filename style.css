@@ -34,6 +34,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  height: 100vh;
   /*cobre todo o espaço da tela*/
 
   /* background: url(./assets/bg-mobile.jpg no-repeat top center/cover
@@ -166,3 +167,14 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* media queries - não necessárias alterações por não ser usada imagem
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./asssets/bg-mobile.png.png)
+  }
+  .light {
+    --bg-url: url(.assets/bg-mobile.png.png)
+  }
+} */
